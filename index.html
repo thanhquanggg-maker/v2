@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Profile Cá Nhân</title>
+</head>
+<body>
+    <canvas id="snow-canvas"></canvas>
+    <div class="page-shell">
+        <header class="topbar">
+            <a href="#home" class="logo">TQ</a>
+
+            <button class="menu-toggle" aria-label="Mở menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-group">
+                <nav>
+                    <a href="#about">Giới thiệu</a>
+                    <a href="#skills">Kỹ năng</a>
+                    <a href="#projects">Dự án</a>
+                    <a href="#contact">Liên hệ</a>
+                </nav>
+                <a href="#contact" class="btn btn-outline">Liên hệ ngay</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero reveal" id="home">
+                <div class="hero-text">
+                    <p class="eyebrow">Sinh viên CNTT</p>
+                    <h1>Xin chào, tôi là <span>Thanh Quang</span></h1>
+                    <p class="lead">Tôi là sinh viên năm 3 đại học, đang học và rèn luyện kỹ năng lập trình web với HTML, CSS và JavaScript.</p>
+                    <div class="quote-runner">
+                        <span class="quote-label">Câu nói</span>
+                        <span class="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Xem dự án</a>
+                        <a href="#about" class="btn btn-secondary">Tìm hiểu thêm</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/thanhquang2408" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://discord.com/users/_24th08_" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="https://github.com/thanhquanggg-maker" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://tquangbio.onrender.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-card tilt-card reveal">
+                    <div class="avatar-ring">
+                        <img src="image/avatar.jpg" alt="Profile photo">
+                    </div>
+                    <div class="profile-meta">
+                        <p class="meta-label">Mục tiêu</p>
+                        <h3>Học tập, phát triển và làm việc với web frontend</h3>
+                    </div>
+                    <div class="stats-row">
+                        <div>
+                            <strong>3</strong>
+                            <span>Năm học</span>
+                        </div>
+                        <div>
+                            <strong>0+</strong>
+                            <span>Kinh nghiệm làm việc</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about reveal" id="about">
+                <div class="section-heading">
+                    <p class="eyebrow">Giới thiệu</p>
+                    <h2>Về tôi</h2>
+                </div>
+                <div class="about-grid">
+                    <div>
+                        <p>Tôi là sinh viên năm 3 đại học, đang từng bước học và thực hành frontend để xây dựng các giao diện web đẹp, dễ nhìn và dễ sử dụng. Hiện tại tôi chưa có nhiều kinh nghiệm làm việc nhưng luôn sẵn sàng học hỏi và cải thiện kỹ năng mỗi ngày.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div>
+                            <span>01</span>
+                            <p>Học và áp dụng UI/UX cơ bản</p>
+                        </div>
+                        <div>
+                            <span>02</span>
+                            <p>Làm quen với HTML, CSS và JavaScript</p>
+                        </div>
+                        <div>
+                            <span>03</span>
+                            <p>Đang phát triển kỹ năng để làm việc chuyên nghiệp hơn</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills reveal" id="skills">
+                <div class="section-heading">
+                    <p class="eyebrow">Kỹ năng</p>
+                    <h2>Những gì tôi đang học</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card tilt-card reveal">
+                        <h3>HTML / CSS</h3>
+                        <p>Đang học cách xây dựng giao diện web rõ ràng, đẹp mắt và dễ nhìn.</p>
+                    </div>
+                    <div class="skill-card tilt-card reveal">
+                        <h3>JavaScript</h3>
+                        <p>Đang rèn luyện kỹ năng tạo tương tác và xử lý logic cơ bản.</p>
+                    </div>
+                    <div class="skill-card tilt-card reveal">
+                        <h3>Responsive</h3>
+                        <p>Học cách làm website phù hợp với nhiều thiết bị khác nhau.</p>
+                    </div>
+                    <div class="skill-card tilt-card reveal">
+                        <h3>UI/UX cơ bản</h3>
+                        <p>Đang tìm hiểu cách thiết kế giao diện thân thiện với người dùng.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects reveal" id="projects">
+                <div class="section-heading">
+                    <p class="eyebrow">Dự án</p>
+                    <h2>Một số công việc gần đây</h2>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card tilt-card reveal">
+                        <div class="project-image img-one"></div>
+                        <h3>Profile Page</h3>
+                        <p>Thiết kế và phát triển trang hồ sơ cá nhân với giao diện hiện đại.</p>
+                    </article>
+                    <article class="project-card tilt-card reveal">
+                        <div class="project-image img-two"></div>
+                        <h3>Travel website</h3>
+                        <p>Giao diện dành cho trang web du lịch, cung cấp thông tin và trải nghiệm đặt phòng tuyệt vời.</p>
+                    </article>
+                    <article class="project-card tilt-card reveal">
+                        <div class="project-image img-three"></div>
+                        <h3>Library page</h3>
+                        <p>Thiết kế và phát triển trang web thư viện với giao diện thân thiện và dễ sử dụng.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contact reveal" id="contact">
+                <div>
+                    <p class="eyebrow">Liên hệ</p>
+                    <h2>Liên hệ với tôi</h2>
+                </div>
+                <a href="mailto:quangnot1@gmail.com" class="btn btn-primary">quangnot1@gmail.com</a>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 <span>Thanh Quang</span>. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#contact">Liên hệ</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
